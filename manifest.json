@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Ramayana Movie Countdown (Fan Made)",
+  "short_name": "Ramayana",
+  "version": "1.0.0",
+  "description": "Unofficial fan extension: live countdown to the Ramayana Part 1 release, a quick cast guide and links to the latest news.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ramayana Movie Countdown",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "homepage_url": "https://ramayanafilm.online/"
+}

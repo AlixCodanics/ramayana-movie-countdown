@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ramayana Movie Countdown</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Ramayana</h1>
+    <p class="sub">Part 1 in theatres</p>
+  </header>
+
+  <section class="count" aria-live="polite">
+    <div class="days"><span id="d">--</span><small>days</small></div>
+    <div class="clock">
+      <span><b id="h">--</b> hrs</span>
+      <span><b id="m">--</b> min</span>
+      <span><b id="s">--</b> sec</span>
+    </div>
+    <p class="date" id="dateLine"></p>
+  </section>
+
+  <section class="cast">
+    <h2>Who plays whom</h2>
+    <ul>
+      <li><span>Ranbir Kapoor</span><em>Ram</em></li>
+      <li><span>Sai Pallavi</span><em>Sita</em></li>
+      <li><span>Yash</span><em>Ravana</em></li>
+      <li><span>Sunny Deol</span><em>Hanuman</em></li>
+      <li><span>Ravi Dubey</span><em>Lakshman</em></li>
+    </ul>
+  </section>
+
+  <nav>
+    <a class="primary" data-link="news" href="#">Read the latest news</a>
+    <div class="row">
+      <a data-link="cast" href="#">Full cast</a>
+      <a data-link="trailers" href="#">Trailers</a>
+    </div>
+  </nav>
+
+  <footer>Unofficial fan-made extension by ramayanafilm.online</footer>
+  <script src="popup.js"></script>
+</body>
+</html>
