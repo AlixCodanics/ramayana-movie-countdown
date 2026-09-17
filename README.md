@@ -2,7 +2,7 @@
 
 A small browser extension for everyone waiting for Nitesh Tiwari's **Ramayana**. Click the toolbar icon and you get a live countdown to the Part 1 release, a quick cast list, and links to the latest news.
 
-![Extension popup](screenshots/countdown.png)
+![Extension popup](countdown.png)
 
 > Unofficial fan project. Not affiliated with the makers, producers or distributors of the film.
 
@@ -29,10 +29,11 @@ Ramayana is a two-part adaptation of Valmiki's epic. Part 1 is set for Diwali 20
 
 ```
 manifest.json   Manifest V3 config
+countdown.png   Screenshot
 popup.html      Popup markup
 popup.css       Styles
 popup.js        Countdown and link logic
-icons/          Extension icons
+icon*.png       Extension icons
 ```
 
 To change the release date, edit the `RELEASE` constant at the top of `popup.js`.
